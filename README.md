@@ -4,7 +4,7 @@ A Smart India Hackathon 2022 project on "A portal to list all national and Inter
 
 Team memebers:
 1. Omdev Shastri
-2. Pratik Musle
+2. Pratik Musale
 3. Priyanshi Sharma
 4. Adithi Damodar Shetty
 5. Satyamurthi Musti
