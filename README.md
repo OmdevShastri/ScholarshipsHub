@@ -3,11 +3,10 @@ A Smart India Hackathon 2022 project on "A portal to list all national and Inter
 
 
 Team memebers:
-1.
-2.
-3.
-4.
-5.
-6.
+1. Omdev Shastri
+2. Pratik Musle
+3. Priyanshi Sharma
+4. Adithi Damodar Shetty
+5. Yashraj Sinha
 
 Thank you! 
