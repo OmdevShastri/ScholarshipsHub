@@ -7,6 +7,7 @@ Team memebers:
 2. Pratik Musle
 3. Priyanshi Sharma
 4. Adithi Damodar Shetty
-5. Yashraj Sinha
+5. Satyamurthi Musti
+6. Yashraj Sinha
 
 Thank you! 
