@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+            <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+                <h1 class="title-font font-medium text-3xl text-gray-900">Apply for Registration</h1>
+                <!--<p class="leading-relaxed mt-4">Poke slow-carb mixtape knausgaard, typewriter street art gentrify hammock starladder roathse. Craies vegan tousled etsy austin.</p>-->
+            </div>
+            <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+                <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign Up</h2>
+                <div class="relative mb-4">
+                    <label for="user_id" class="leading-7 text-sm text-gray-600">Full Name</label>
+                    <input type="text" id="user_id" name="user_id" title="user_id" value="" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        placeholder="Enter your Name" required>
+                </div>
+                <div class="relative mb-4">
+                    <label for="user_age" class="leading-7 text-sm text-gray-600">Age</label>
+                    <input type="numerical" id="user_age" name="user_age" title="user_age" value="" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        placeholder="Enter your Age" required>
+                </div>
+                <div class="relative mb-4">
+                    <label for="user_country" class="leading-7 text-sm text-gray-600">Country</label>
+                    <input type="text" id="user_country" name="user_country" title="user_country" value="" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        placeholder="Enter your Country" required>
+                </div>
+                <div class="relative mb-4">
+                    <label for="user_email" class="leading-7 text-sm text-gray-600">Email</label>
+                    <input type="email" id="user_email" name="user_email" title="user_email" value="" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        placeholder="Enter your Email" required>
+                </div>
+                <div class="relative mb-4">
+                    <label for="user_address" class="leading-7 text-sm text-gray-600">Address</label>
+                    <input type="text" id="user_address" name="user_address" title="user_address" value="" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        placeholder="Enter your Address" required>
+                </div>
+                <div class="relative mb-4">
+                    <label for="user_phno." class="leading-7 text-sm text-gray-600">Phone Number</label>
+                    <input type="numerical" id="user_phno." name="user_phno." title="user_phno." value="" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        placeholder="Enter your Phone Number" required>
+                </div>
+                <form action="#">
+                    <script src="C:\Users\Admin\Desktop\project\FINAL\script\jquery.min.js"></script>
+                    <script type="application/javascript">
+                        function LoginForm() {
+                            // alert("call");
+                            // alert(document.getElementById("user_id").value);
+                            // alert(document.getElementById("user_pw").value);
+                            var user_id_db = document.getElementById("user_id").value;
+                            var user_age_db = document.getElementById("user_age").value;
+                            var user_country_db = document.getElementById("user_country").value;
+                            var user_email_db = document.getElementById("user_email").value;
+                            var user_address_db = document.getElementById("user_address").value;
+                            var user_phno_db = document.getElementById("user_phno").value;
+                            /*
+                             nme : age : country : email : address : phno.
+                             priyanshi : priyanshi_123
+                             ayush : ayush_123
+                             anmol : anmol_123
+                             bhavesh : bhavesh_123
+                            */
+                            if (user_id_db == "" && user_age_db == "" && user_country_db == "" && user_email_db == "" && user_address_db == "" && user_phno_db == "") {
+                                document.getElementById("result").innerHTML = "Invalid: Login credentail cannot be blank ";
+                            } else if (user_id_db == "priyanshi" && user_age_db == "20" && user_country_db == "India" && user_email_db == "priyanshi@gmail.com" && user_address_db == "bhavesh_123 " && user_phno_db == "9245040003") {
+                                alert("Successful Login for the user: priyanshi");
+                                window.location = "C:/Users/Priyanshi/Desktop/proj/Home.html";
+
+                            } else if (user_id_db == "ayush" && user_age_db == "25" && user_country_db == "America" && user_email_db == "ayush@gmail.com" && user_address_db == "bhavesh_123 " && user_phno_db == "8467239550") {
+                                alert("Successful Login for the user: ayush");
+                                window.location = "C:/Users/Priyanshi/Desktop/proj/Home.html";
+
+                            } else if (user_id_db == "anmol" && user_age_db == "23" && user_country_db == "Russia" && user_email_db == "anmol@gmail.com" && user_address_db == "bhavesh_123 " && user_phno_db == "2344783950243") {
+                                alert("Successful Login for the user: anmol");
+                                window.location = "C:/Users/Priyanshi/Desktop/proj/Home.html";
+
+                            } else if (user_id_db == "bhavesh" && user_age_db == "22" && user_country_db == "UK" && user_email_db == "bhavesh@gamil.com" && user_address_db == "bhavesh_123 " && user_phno_db == "46739494637") {
+                                alert("Successful Login for the user: bhavesh");
+                                window.location = "C:/Users/Priyanshi/Desktop/proj/Home.html";
+
+                            } else {
+                                alert("UnSuccessful Login for the user: " + user_id_db);
+                                document.getElementById("result").innerHTML = "Invalid credentail for the user: " + user_id_db;
+                                // window.location = "success.html"; // Redirecting to other page.
+                                // document.login_form.submit();
+                                // return true;
+                                return false;
+                            }
+                        }
+                    </script>
+                    <!--<div class="login-details">
+                        <div class="input-box">
+                            <div class="input-box">
+                                <span class="details">Username</span>
+                                <input type="text" id="user_id" name="user_id" title="user_id" value="" placeholder="Enter your Username" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details"> Password</span>
+                                <input type="password" id="user_pw" name="user_pw" title="user_pw " value=" " placeholder="Enter your Password " required>
+                            </div>
+                        </div>
+
+                        <div class="button ">
+                            <button class="button" onclick="LoginForm() ">Login</button>
+                        </div>
+                    </div>-->
+                    <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" onclick="LoginForm()">Register</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
